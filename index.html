@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>peace</title>
+    <style>
+    
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .main{
+          width: 350px;
+          height: 350px;
+          background-color: #F3EAD2;
+          border: 2px solid #333;
+          border-radius: 50%;
+          display:flex;
+          align-items: center;
+          justify-content: center;
+        }
+        
+        .circle {
+          width: 250px;
+          height: 250px;
+          border: 30px solid #333;
+          border-radius: 50%;
+          background: transparent;
+        }
+      
+        .centerline{
+          position: relative;
+          left: 80px;
+          top: -15px;
+          width: 30px;
+          height: 230px;
+          background-color: #333;
+        }
+      
+        .right-line{
+          position: relative;
+          top: -145px;
+          left: 45px;
+          width:30px;
+          height: 100px;
+          background-color: #333;
+          rotate: 45deg;
+        }
+      
+        .left-line{
+          position: relative;
+          top: -245px;
+          left: 115px;
+          width:30px;
+          height: 100px;
+          background-color: #333;
+          rotate: -45deg;
+        }
+      </style>
+</head>
+<body>
+
+<div class="container">
+
+ <div class="main"> 
+     <div class="circle"> 
+      <div class="centerline"> </div>
+      <div class="right-line"> </div>
+      <div class="left-line"> </div>
+     </div>     
+ </div>
+
+</div>
+    
+    
+</body>
+</html>
